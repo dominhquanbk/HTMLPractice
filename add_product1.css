@@ -1,0 +1,17 @@
+body{
+  background-color: #eee;
+
+}
+.icon{
+  position: absolute;
+  top: calc(50%);
+  left: 1.25rem;
+}
+.form-floating{
+  position: relative;
+  
+}
+.form-floating label, .form-floating .form-control{
+  
+  padding-left: 3rem;
+}

@@ -1,0 +1,71 @@
+body{
+    background-color: #eee;
+}
+.mini_img>img{
+    margin-top: 10px;
+    height:150px;
+    width: 166px;
+}
+.big_img img{
+    height:307px;
+    width: 546px;
+}
+.clicked_img>img{
+    height: 400px;
+    width: 400px;
+}
+.modal-content {
+    background-color: transparent;
+    border: none;
+  }
+
+  .modal-footer {
+    
+    border: none;
+  }
+  .modal-header{
+    border:none;
+  }
+  .rating {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+  }
+  .card{
+    margin-bottom: 20px;
+  }
+  .blue-icon {
+    color: blue;
+  }
+  
+
+  .carousel-item img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .logout_button{
+    background-color: #dc3545;
+    color:white;
+}
+.login_button{
+    background-color: #0d6efd;
+    color:white;
+}
+#account_success {
+  position: fixed;
+  display: none;
+  padding: 20px;
+  background-color: rgb(0, 255, 170);
+  left: 0;
+right: 0;
+z-index: 9999;
+}
+#comment_success {
+  position: fixed;
+  display: none;
+  padding: 20px;
+  background-color: rgb(0, 255, 170);
+  left: 0;
+right: 0;
+z-index: 9999;
+}

@@ -1,0 +1,22 @@
+.product{
+  height:500px;
+  margin-bottom: 30px;
+}
+.product > img{
+height:300px
+}
+.logout_button{
+  background-color: #dc3545;
+  color:white;
+}
+.login_button{
+  background-color: #0d6efd;
+  color:white;
+}
+#account_success {
+  position: absolute;
+  display: none;
+  background-color: rgb(49, 255, 49);
+  left: 0;
+right: 0;
+}
